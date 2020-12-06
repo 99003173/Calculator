@@ -32,13 +32,17 @@ int modulo(int operand1, int operand2)
 }
 
 int power(int operand1, int operand2)
-{
+{int res=1;
     if(0 == operand2)
         return 1;
     if(1 == operand2)
         return operand1;
     else
-        return pow(operand1,operand2);
+     for(operand2;operand2>0;operand--)
+     {
+         res=res*operand1;
+     }
+ return res;
 }
 
 int squareroot(int operand1)
