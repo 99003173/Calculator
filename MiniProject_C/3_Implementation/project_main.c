@@ -8,7 +8,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations { ADD=1, SUBTRACT, MULTIPLY, DIVIDE, MODULO, POWER, SQUARE_ROOT, FACTORIAL,LENGTH, TIME, EXIT };
+enum operations { ADD=1, SUBTRACT, MULTIPLY, DIVIDE, MODULO, POWER, FACTORIAL,LENGTH, TIME, EXIT };
 void calculator_menu(void);
 int valid_operation(int operation);
 int main(int argc, char *argv[])
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nCalculator Operations:\n");
-    printf("\n1. ADDITION:\n2. SUBTRACTION:\n3. MULTIPLICATION:\n4. DIVIDE:\n5. MODULUS:\n6. POWER:\n7. SQUARE_ROOT:\n8. FACTORIAL\n9. LENGTH:\n10. TIME:\n11. EXIT:");
+    printf("\n1. ADDITION:\n2. SUBTRACTION:\n3. MULTIPLICATION:\n4. DIVIDE:\n5. MODULUS:\n6. POWER:\n7. FACTORIAL\n8. LENGTH:\n9. TIME:\n10. EXIT:");
     printf("\n\tEnter your choice\n");
 
 
@@ -106,14 +106,7 @@ void calculator_menu(void)
 
         getchar();
         break;
-    case SQUARE_ROOT:
-        printf("\n\tsqrt(%d) = %d\nEnter to continue \n",
-               calculator_operand1,
-               squareroot(calculator_operand1));
-
-
-        getchar();
-        break;
+   
     case FACTORIAL:
         printf("\n\t%d! = %d\nEnter to continue",
                calculator_operand1,
