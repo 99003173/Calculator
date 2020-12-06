@@ -45,12 +45,6 @@ int power(int operand1, int operand2)
  return res;
 }
 
-int squareroot(int operand1)
-{int a;
- a=sqrt(operand1);
-    return a;
-}
-
 int factorial(int operand1)
 {
     int i,fact=1;
