@@ -1,7 +1,7 @@
 #include<Cunit/Basic.h>
 #include<Cunit/Cunit.h>
 
-#include <trial_op.h>
+#include <calculator_operations.h>
 #define PROJECT_NAME "Calculator"
 
 void test_add(void);
@@ -11,7 +11,6 @@ void test_divide(void);
 void factorial(void);
 void Modulo(void);
 void Power(void);
-void squareroot(void);
 void Length(void);
 
 
@@ -30,7 +29,6 @@ CU_add_test(suite,"divide",test_divide);
 CU_add_test(suite,"factorial",test_factorial);
 CU_add_test(suite,"modulo",test_modulo);
 CU_add_test(suite,"power",test_power);
-CU_add_test(suite,"suqareroot",test_squareroot);
 CU_add_test(suite,"length",test_length);
 
 
@@ -75,10 +73,7 @@ void test_power(void)
 CU_ASSERT(125==power(5,3));
 }
 
-void test_squareroot(void)
-{
-CU_ASSERT(2==squareroot(4));
-}
+
 
 
 
