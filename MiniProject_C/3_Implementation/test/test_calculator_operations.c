@@ -47,7 +47,7 @@ CU_ASSERT(50==add(20,30));
 
 void test_subtract(void)
 {
-CU_ASSERT(5==subtarct(3,2));
+CU_ASSERT(5==subtract(3,2));
 }
 
 void test_multiply(void)
@@ -66,7 +66,7 @@ CU_ASSERT(720==factorial(6));
 }
 void test_modulo(void)
 {
-CU_ASSERT(3==mod(12,9));
+CU_ASSERT(3==modulo(12,9));
 }
 void test_power(void)
 {
