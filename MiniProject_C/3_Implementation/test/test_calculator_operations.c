@@ -8,10 +8,10 @@ void test_add(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
-void factorial(void);
-void Modulo(void);
-void Power(void);
-void Length(void);
+void test_factorial(void);
+void test_Modulo(void);
+void test_Power(void);
+void test_Length(void);
 
 
 int main()
