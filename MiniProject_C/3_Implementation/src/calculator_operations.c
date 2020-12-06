@@ -45,7 +45,7 @@ int power(int operand1, int operand2)
  return res;
 }
 
-int squareroot(int operand1)
+float squareroot(float operand1)
 {
     return sqrt(operand1);
 }
