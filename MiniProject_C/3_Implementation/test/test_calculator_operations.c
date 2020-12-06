@@ -9,9 +9,9 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_factorial(void);
-void test_Modulo(void);
-void test_Power(void);
-void test_Length(void);
+void test_modulo(void);
+void test_power(void);
+void test_length(void);
 
 
 int main()
