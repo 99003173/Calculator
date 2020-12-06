@@ -38,7 +38,7 @@ int power(int operand1, int operand2)
     if(1 == operand2)
         return operand1;
     else
-     for(operand2;operand2>0;operand--)
+     for(operand2;operand2>0;operand2--)
      {
          res=res*operand1;
      }
