@@ -1,5 +1,5 @@
-#include<Cunit/Basic.h>
-#include<Cunit/Cunit.h>
+#include<CUnit/Basic.h>
+#include<CUnit/Cunit.h>
 
 #include <calculator_operations.h>
 #define PROJECT_NAME "Calculator"
